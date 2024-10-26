@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #00695c; /* Dark teal */
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #00796b; /* Teal */
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    color: #00796b; /* Teal */
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #00796b; /* Teal */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #009688; /* Cyan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00796b; /* Darker teal on hover */
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
